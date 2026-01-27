@@ -63,7 +63,7 @@ _It is recommended to use a structured abstract with Background/Methods/Results/
 _Provide enough background on your topic that others can understand the why and how of your analysis_ 
 
 ## Description of data and data source
-_Describe what the data is, what it contains, where it is from, etc. Eventually this might be part of a methods section._
+This dataset contains variables of height, weight, eye color, age, and gender. I contributed by adding two columns on age and eye color. The eye color variable has values of Green (G), Blue (Bl), and Brown (Br). The age variable contains numberic values >0. 
 
 ## Questions/Hypotheses to be addressed
 _State the research questions you plan to answer with this analysis._
