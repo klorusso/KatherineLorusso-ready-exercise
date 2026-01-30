@@ -118,6 +118,14 @@ ggsave(filename = figure_file, plot=p6)
 ```
 It looks like there is maybe a positive correlation between Age and weight
 
+Now I want to make a box plot graphing eye color by height
+```{r}
+p7 <- mydata %>% ggplot(aes(x=`Eye Color`, y=Height)) + geom_boxplot()
+plot(p7)
+figure_file = here("results", "figures", "HeightEyeColor.png")
+ggsave(filename = figure_file, plot=p7)
+```
+It looks like people with brown eyes tend to be shorter which is interesting!
 
 # Notes
 
